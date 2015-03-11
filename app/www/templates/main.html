@@ -1,0 +1,41 @@
+<link href="css/main.css" rel="stylesheet">
+
+<ion-view title="main" ng-controller="MainController">
+	<div class="header" style="display:inline-flex;">
+		<img id="header-divider" ng-src="img/header_divider.png"></img>
+		<img id="header-divider-head" ng-src="img/header_divider_head.png"></img>
+		
+		<div class="left-header" style="position:absolute;">
+			<img id="header-smash-icon" ng-src="img/smash_icon.png"></img>SMATCH BROS.
+		</div>
+		<div class="right-header">
+			<img id="player_profile_icon" ng-src="img/player_profile_icon.png"></img>Time - 2 min
+		</div>
+	</div>
+	<div class="body" style="background-color: #323232;">
+		<div class="lobby-header">
+			<div class="buttons">
+				<button class="button button-small button-assertive smash-button">
+					Smash
+				</button>
+				<button class="button button-small button-stable victorycondition-button">
+					<img id="victory_icon" class="stock_icon" ng-src="img/rules_stock_icon.png"></img>Time - 2 min
+				</button>
+				<button class="button button-small button-balanced customization-button">
+					CUSTOMS
+				</button>
+			</div>
+		</div>
+		<div class="slots">
+			<div class="top-slots">
+				<img id="slot_one" class="slot left-slot" ng-src="img/slot_one.png"></img>
+				<img id="slot_two" class="slot right-slot" ng-src="img/slot_two.png"></img>
+			</div>
+			<img id="vs-icon" class="vs-icon" ng-src="img/vs_icon.png"></img>
+			<div class="bottom-slots">
+				<img id="slot_three" class="slot left-slot" ng-src="img/slot_three.png"></img>
+				<img id="slot_four" class="slot right-slot" ng-src="img/slot_four.png"></img>
+			</div>
+		</div>
+	</div>
+</ion-view>

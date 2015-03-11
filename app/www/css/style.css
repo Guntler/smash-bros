@@ -1,0 +1,56 @@
+html,
+body {
+	height: 2000px;
+	margin: 0px;
+	text-rendering: optimizeLegibility;
+	min-width: 320px;
+	font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.bar-header {
+	background-color:#7885b2;
+}
+
+.left-header {
+	background-color:#7885b2;
+	
+}
+
+.centered {
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	margin-left: 0;
+}
+
+.slider {
+	position: absolute !important;
+	top: 43px !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	right: 0 !important;
+	background:#FC5447;
+	
+}
+
+.contentPane {
+	position: absolute !important;
+
+	left: 0 !important;
+	right: 0 !important;
+	background:#FC5447;
+}
+
+.product {
+	background-color: #323232;
+}
+
+.product img {
+	min-height: 80%;
+	max-height: 80%;
+}
+
+#productImage img {
+	min-height: 80%;
+	max-height: 80%;
+}
